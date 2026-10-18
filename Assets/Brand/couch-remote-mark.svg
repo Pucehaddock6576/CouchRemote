@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <linearGradient id="tile" x1="124" y1="74" x2="910" y2="966" gradientUnits="userSpaceOnUse"><stop stop-color="#222745"/><stop offset=".52" stop-color="#151A2D"/><stop offset="1" stop-color="#0A0D18"/></linearGradient>
+    <linearGradient id="rim" x1="220" y1="204" x2="804" y2="830" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" stop-opacity=".46"/><stop offset="1" stop-color="#AAB3DA" stop-opacity=".11"/></linearGradient>
+    <linearGradient id="pulse" x1="346" y1="388" x2="799" y2="681" gradientUnits="userSpaceOnUse"><stop stop-color="#FF8D87"/><stop offset=".55" stop-color="#F06B86"/><stop offset="1" stop-color="#9B7CFF"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(440 408 -441 476 350 248)" gradientUnits="userSpaceOnUse"><stop stop-color="#7C73F6" stop-opacity=".38"/><stop offset="1" stop-color="#7C73F6" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="82" y="54" width="860" height="916" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="30"/></filter>
+  </defs>
+  <rect x="111" y="111" width="802" height="802" rx="226" fill="#050711" opacity=".56" filter="url(#shadow)"/>
+  <rect x="92" y="76" width="840" height="840" rx="238" fill="url(#tile)"/>
+  <rect x="92" y="76" width="840" height="840" rx="238" fill="url(#glow)"/>
+  <rect x="93.5" y="77.5" width="837" height="837" rx="236.5" stroke="url(#rim)" stroke-width="3"/>
+  <!-- The touch field: quiet, soft-cornered, and unmistakably tactile. -->
+  <rect x="292" y="231" width="440" height="562" rx="166" fill="#0C1020" fill-opacity=".58" stroke="#F2F3FF" stroke-opacity=".74" stroke-width="17"/>
+  <rect x="306" y="245" width="412" height="534" rx="151" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="2"/>
+  <!-- Directional response lives at the cardinal points, but never becomes a literal keypad. -->
+  <path d="M512 281v38M512 705v38M349 512h38M637 512h38" stroke="#E8EAF6" stroke-opacity=".48" stroke-width="15" stroke-linecap="round"/>
+  <!-- An intentional touch, with the signal opening toward the right. -->
+  <circle cx="480" cy="512" r="54" fill="url(#pulse)"/>
+  <circle cx="480" cy="512" r="89" stroke="url(#pulse)" stroke-opacity=".58" stroke-width="10"/>
+  <path d="M582 432c42 42 42 118 0 160M628 388c68 68 68 188 0 256M674 344c94 94 94 282 0 376" stroke="url(#pulse)" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="480" cy="512" r="17" fill="#FFF7F4"/>
+</svg>

@@ -1,0 +1,25 @@
+# Build outputs
+/build/
+DerivedData/
+*.app/
+*.dSYM/
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+
+# macOS/editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.xcuserstate
+.vscode/
+.idea/
+
+# Local configuration, signing material, and logs
+config.json
+config-unreadable-*.json
+*.mobileprovision
+*.p12
+*.cer
+*.key
+*.log

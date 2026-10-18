@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="440" viewBox="0 0 1560 440" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="56" y1="28" x2="1500" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#111629"/><stop offset="1" stop-color="#090C16"/></linearGradient>
+    <linearGradient id="tile" x1="43" y1="38" x2="369" y2="387" gradientUnits="userSpaceOnUse"><stop stop-color="#252A49"/><stop offset=".54" stop-color="#171C31"/><stop offset="1" stop-color="#0B0E19"/></linearGradient>
+    <linearGradient id="pulse" x1="160" y1="183" x2="312" y2="277" gradientUnits="userSpaceOnUse"><stop stop-color="#FF9B8D"/><stop offset=".48" stop-color="#F06B86"/><stop offset="1" stop-color="#9A7DFF"/></linearGradient>
+    <linearGradient id="rim" x1="80" y1="71" x2="338" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" stop-opacity=".46"/><stop offset="1" stop-color="#AEB7DC" stop-opacity=".11"/></linearGradient>
+  </defs>
+  <rect width="1560" height="440" rx="36" fill="url(#bg)"/>
+  <rect x="22" y="22" width="396" height="396" rx="112" fill="url(#tile)"/>
+  <rect x="23" y="23" width="394" height="394" rx="111" stroke="url(#rim)" stroke-width="2"/>
+  <rect x="111" y="94" width="218" height="252" rx="81" fill="#0C1020" fill-opacity=".58" stroke="#F2F3FF" stroke-opacity=".74" stroke-width="8"/>
+  <path d="M220 116v15M220 309v15M127 220h15M298 220h15" stroke="#E8EAF6" stroke-opacity=".52" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="204" cy="220" r="27" fill="url(#pulse)"/>
+  <circle cx="204" cy="220" r="45" stroke="url(#pulse)" stroke-opacity=".58" stroke-width="5"/>
+  <path d="M256 179c21 21 21 61 0 82M279 157c35 35 35 91 0 126M302 135c49 49 49 135 0 170" stroke="url(#pulse)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="204" cy="220" r="8" fill="#FFF8F5"/>
+  <text x="480" y="209" fill="#F7F7FB" font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="104" font-weight="650" letter-spacing="-4">Couch Remote</text>
+  <text x="488" y="278" fill="#A9AFC6" font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="450" letter-spacing="3.2">A BETTER WAY TO DRIVE YOUR MAC</text>
+  <circle cx="492" cy="344" r="5" fill="#FF9B8D"/><circle cx="514" cy="344" r="5" fill="#F06B86"/><circle cx="536" cy="344" r="5" fill="#9A7DFF"/>
+</svg>

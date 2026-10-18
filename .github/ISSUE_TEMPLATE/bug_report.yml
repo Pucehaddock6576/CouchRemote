@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible problem with Couch Remote
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues first. Do not attach private configuration files, credentials, or unredacted logs.
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: e.g. macOS 15.4
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Mac and architecture
+      placeholder: e.g. MacBook Air, Apple silicon
+    validations:
+      required: true
+  - type: input
+    id: remote
+    attributes:
+      label: Remote model
+      placeholder: e.g. Apple TV Siri Remote (1st generation)
+  - type: dropdown
+    id: build
+    attributes:
+      label: How was the app built/installed?
+      options:
+        - Built from this repository with bash build.sh
+        - Existing/local prebuilt copy
+        - Other (explain below)
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the app, settings pane, input, and playback/system state involved.
+      placeholder: 1. Open…\n2. Press…\n3. Observe…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Relevant permissions and troubleshooting tried
+      description: For example Input Monitoring, Accessibility, Automation, Bluetooth, calendar, or local network.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted error output
+      description: Remove usernames, device identifiers, tokens, and other private data before sharing.

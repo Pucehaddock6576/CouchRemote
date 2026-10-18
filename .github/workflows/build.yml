@@ -1,0 +1,38 @@
+name: Build macOS app
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Show Swift toolchain
+        run: |
+          xcode-select -p
+          swiftc --version
+          xcrun --show-sdk-path --sdk macosx
+
+      - name: Build app bundle
+        run: bash build.sh
+
+      - name: Validate app bundle
+        run: |
+          test -x "build/Couch Remote.app/Contents/MacOS/CouchRemote"
+          plutil -lint "build/Couch Remote.app/Contents/Info.plist"
+
+      - name: Upload app bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: Couch-Remote-macOS-${{ runner.arch }}
+          path: build/Couch Remote.app
+          if-no-files-found: error
+          retention-days: 14

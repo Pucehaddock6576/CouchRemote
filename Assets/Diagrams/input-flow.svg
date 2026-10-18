@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="42" y1="24" x2="1536" y2="596" gradientUnits="userSpaceOnUse"><stop stop-color="#111629"/><stop offset="1" stop-color="#090C16"/></linearGradient>
+    <linearGradient id="accent" x1="260" y1="175" x2="1460" y2="485" gradientUnits="userSpaceOnUse"><stop stop-color="#FF9B8D"/><stop offset=".48" stop-color="#F06B86"/><stop offset="1" stop-color="#9A7DFF"/></linearGradient>
+  </defs>
+  <rect width="1600" height="620" rx="36" fill="url(#bg)"/>
+  <text x="72" y="82" fill="#F7F7FB" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="5">ONE REMOTE · THREE CONTROL FEELS</text>
+  <text x="74" y="121" fill="#8F96AD" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="17" letter-spacing="1.2">Choose a mode for the moment. Switch any time.</text>
+  <!-- Input -->
+  <rect x="72" y="192" width="278" height="300" rx="30" fill="#171C30" stroke="#FFFFFF" stroke-opacity=".15"/>
+  <rect x="162" y="226" width="98" height="180" rx="39" stroke="#E9EAF2" stroke-opacity=".74" stroke-width="6"/>
+  <circle cx="211" cy="304" r="15" fill="url(#accent)"/><circle cx="211" cy="304" r="33" stroke="url(#accent)" stroke-opacity=".46" stroke-width="4"/>
+  <path d="M211 240v15M211 353v15M177 304h14M231 304h14" stroke="#E9EAF2" stroke-opacity=".52" stroke-width="4" stroke-linecap="round"/>
+  <text x="112" y="447" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="21" font-weight="650">Siri Remote</text>
+  <text x="104" y="475" fill="#929AB2" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="14" letter-spacing="1.1">BUTTONS + TOUCH</text>
+  <!-- App core -->
+  <path d="M350 342h80" stroke="url(#accent)" stroke-width="3" stroke-dasharray="7 9"/><path d="M416 332l15 10-15 10" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="430" y="192" width="338" height="300" rx="30" fill="#171C30" stroke="#F06B86" stroke-opacity=".48"/>
+  <rect x="532" y="237" width="134" height="112" rx="34" fill="#0C1020" stroke="#EEF0FB" stroke-opacity=".48" stroke-width="5"/>
+  <circle cx="599" cy="293" r="12" fill="url(#accent)"/><circle cx="599" cy="293" r="30" stroke="url(#accent)" stroke-opacity=".56" stroke-width="4"/>
+  <path d="M635 278c13 13 13 27 0 40M648 265c21 21 21 53 0 66" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <text x="499" y="399" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="23" font-weight="700">Couch Remote</text>
+  <text x="490" y="433" fill="#929AB2" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="15">profiles · gestures · actions</text>
+  <!-- Branching options, not a progression between modes -->
+  <path d="M768 342h72M840 264v156M840 264h76M840 342h76M840 420h76" stroke="url(#accent)" stroke-opacity=".7" stroke-width="3" stroke-dasharray="7 9"/>
+  <path d="M905 254l12 10-12 10M905 332l12 10-12 10M905 410l12 10-12 10" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Trackpad -->
+  <rect x="918" y="210" width="236" height="108" rx="24" fill="#171C30" stroke="#FF9B8D" stroke-opacity=".52"/>
+  <circle cx="970" cy="264" r="25" stroke="#EAEAF4" stroke-opacity=".68" stroke-width="4"/><circle cx="970" cy="264" r="7" fill="#FF9B8D"/>
+  <path d="M1012 248h111M1012 266h75M1012 284h92" stroke="#8B93AE" stroke-width="4" stroke-linecap="round"/>
+  <text x="1182" y="258" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="20" font-weight="650">Trackpad</text><text x="1182" y="284" fill="#929AB2" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="14">point · click · drag</text>
+  <!-- Remote -->
+  <rect x="918" y="366" width="236" height="108" rx="24" fill="#171C30" stroke="#F06B86" stroke-opacity=".52"/>
+  <path d="M970 389v62M939 420h62M961 396l9-9 9 9M961 444l9 9 9-9M946 411l-9 9 9 9M994 411l9 9-9 9" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1030" y="412" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="20" font-weight="650">Remote</text><text x="1030" y="438" fill="#929AB2" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="14">swipe · navigate · select</text>
+  <!-- Scroll -->
+  <rect x="1210" y="288" width="318" height="108" rx="24" fill="#171C30" stroke="#9A7DFF" stroke-opacity=".52"/>
+  <rect x="1240" y="314" width="74" height="54" rx="10" stroke="#EAEAF4" stroke-opacity=".68" stroke-width="4"/>
+  <path d="M1255 329h44M1255 341h33M1255 353h39" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <text x="1340" y="334" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="20" font-weight="650">Scroll</text><text x="1340" y="361" fill="#929AB2" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="14">move through content</text>
+  <text x="72" y="562" fill="#858DA5" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="16">Mappings and app profiles can shape what each input does.</text>
+</svg>
